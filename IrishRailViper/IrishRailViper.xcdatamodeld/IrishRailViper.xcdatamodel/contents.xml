@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="16G1036" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="RailStation" representedClassName="RailStation" syncable="YES">
+        <attribute name="destination" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="destinationTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="direction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dueIn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="expArrival" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="expDepart" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastLocation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="late" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="locationType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="origin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="originTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="queryTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="scheduleArrival" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="scheduleDepart" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="serverTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stationCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stationFullName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trainCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trainDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trainType" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="RailStation" positionX="-63" positionY="-18" width="128" height="360"/>
+    </elements>
+</model>

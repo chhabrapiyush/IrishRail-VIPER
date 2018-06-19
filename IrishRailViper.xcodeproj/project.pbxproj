@@ -1,0 +1,972 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57996F144C9FB773428F4E57 /* Pods_IrishRailViperUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B51C663DDFDED177DBC2AB /* Pods_IrishRailViperUITests.framework */; };
+		86582755208024E300F33DA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86582754208024E300F33DA3 /* AppDelegate.swift */; };
+		86582757208024E300F33DA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86582756208024E300F33DA3 /* ViewController.swift */; };
+		8658275A208024E300F33DA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86582758208024E300F33DA3 /* Main.storyboard */; };
+		8658275D208024E300F33DA3 /* IrishRailViper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8658275B208024E300F33DA3 /* IrishRailViper.xcdatamodeld */; };
+		8658275F208024E300F33DA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8658275E208024E300F33DA3 /* Assets.xcassets */; };
+		86582762208024E300F33DA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86582760208024E300F33DA3 /* LaunchScreen.storyboard */; };
+		8658276D208024E400F33DA3 /* IrishRailViperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8658276C208024E400F33DA3 /* IrishRailViperTests.swift */; };
+		86582778208024E400F33DA3 /* IrishRailViperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86582777208024E400F33DA3 /* IrishRailViperUITests.swift */; };
+		865827882080251A00F33DA3 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865827862080251A00F33DA3 /* Endpoints.swift */; };
+		865827892080251A00F33DA3 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865827862080251A00F33DA3 /* Endpoints.swift */; };
+		8658278A2080251A00F33DA3 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865827862080251A00F33DA3 /* Endpoints.swift */; };
+		86582798208025A900F33DA3 /* RailStationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86582791208025A900F33DA3 /* RailStationModel.swift */; };
+		86582799208025A900F33DA3 /* RailStationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86582791208025A900F33DA3 /* RailStationModel.swift */; };
+		8658279A208025A900F33DA3 /* RailStationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86582791208025A900F33DA3 /* RailStationModel.swift */; };
+		865827AC208025CB00F33DA3 /* RailListLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8658279E208025CB00F33DA3 /* RailListLocalDataManager.swift */; };
+		865827AD208025CB00F33DA3 /* RailListLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8658279E208025CB00F33DA3 /* RailListLocalDataManager.swift */; };
+		865827AE208025CB00F33DA3 /* RailListLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8658279E208025CB00F33DA3 /* RailListLocalDataManager.swift */; };
+		865827AF208025CB00F33DA3 /* RailListRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865827A0208025CB00F33DA3 /* RailListRemoteDataManager.swift */; };
+		865827B0208025CB00F33DA3 /* RailListRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865827A0208025CB00F33DA3 /* RailListRemoteDataManager.swift */; };
+		865827B1208025CB00F33DA3 /* RailListRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865827A0208025CB00F33DA3 /* RailListRemoteDataManager.swift */; };
+		865827B2208025CB00F33DA3 /* RailListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865827A2208025CB00F33DA3 /* RailListInteractor.swift */; };
+		865827B3208025CB00F33DA3 /* RailListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865827A2208025CB00F33DA3 /* RailListInteractor.swift */; };
+		865827B4208025CB00F33DA3 /* RailListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865827A2208025CB00F33DA3 /* RailListInteractor.swift */; };
+		865827B5208025CB00F33DA3 /* RailListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865827A4208025CB00F33DA3 /* RailListPresenter.swift */; };
+		865827B6208025CB00F33DA3 /* RailListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865827A4208025CB00F33DA3 /* RailListPresenter.swift */; };
+		865827B7208025CB00F33DA3 /* RailListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865827A4208025CB00F33DA3 /* RailListPresenter.swift */; };
+		865827B8208025CB00F33DA3 /* RailListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865827A6208025CB00F33DA3 /* RailListProtocols.swift */; };
+		865827B9208025CB00F33DA3 /* RailListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865827A6208025CB00F33DA3 /* RailListProtocols.swift */; };
+		865827BA208025CB00F33DA3 /* RailListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865827A6208025CB00F33DA3 /* RailListProtocols.swift */; };
+		865827BB208025CB00F33DA3 /* RailListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865827A8208025CB00F33DA3 /* RailListView.swift */; };
+		865827BC208025CB00F33DA3 /* RailListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865827A8208025CB00F33DA3 /* RailListView.swift */; };
+		865827BD208025CB00F33DA3 /* RailListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865827A8208025CB00F33DA3 /* RailListView.swift */; };
+		865827BE208025CB00F33DA3 /* RailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865827A9208025CB00F33DA3 /* RailTableViewCell.swift */; };
+		865827BF208025CB00F33DA3 /* RailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865827A9208025CB00F33DA3 /* RailTableViewCell.swift */; };
+		865827C0208025CB00F33DA3 /* RailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865827A9208025CB00F33DA3 /* RailTableViewCell.swift */; };
+		865827C1208025CB00F33DA3 /* RailListWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865827AB208025CB00F33DA3 /* RailListWireFrame.swift */; };
+		865827C2208025CB00F33DA3 /* RailListWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865827AB208025CB00F33DA3 /* RailListWireFrame.swift */; };
+		865827C3208025CB00F33DA3 /* RailListWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865827AB208025CB00F33DA3 /* RailListWireFrame.swift */; };
+		865E52062081818300F76868 /* RailStation+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E52042081818300F76868 /* RailStation+CoreDataClass.swift */; };
+		865E52072081818300F76868 /* RailStation+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E52042081818300F76868 /* RailStation+CoreDataClass.swift */; };
+		865E52082081818300F76868 /* RailStation+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E52042081818300F76868 /* RailStation+CoreDataClass.swift */; };
+		865E52092081818300F76868 /* RailStation+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E52052081818300F76868 /* RailStation+CoreDataProperties.swift */; };
+		865E520A2081818300F76868 /* RailStation+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E52052081818300F76868 /* RailStation+CoreDataProperties.swift */; };
+		865E520B2081818300F76868 /* RailStation+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E52052081818300F76868 /* RailStation+CoreDataProperties.swift */; };
+		865E520D2083AF4400F76868 /* XmlParserHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E520C2083AF4400F76868 /* XmlParserHandler.swift */; };
+		865E52122083E94C00F76868 /* XmlParserHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E520C2083AF4400F76868 /* XmlParserHandler.swift */; };
+		865E52132083E94C00F76868 /* XmlParserHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E520C2083AF4400F76868 /* XmlParserHandler.swift */; };
+		865E521520844F8A00F76868 /* RailListDisplayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E521420844F8900F76868 /* RailListDisplayData.swift */; };
+		865E521620844F8A00F76868 /* RailListDisplayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E521420844F8900F76868 /* RailListDisplayData.swift */; };
+		865E521720844F8B00F76868 /* RailListDisplayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E521420844F8900F76868 /* RailListDisplayData.swift */; };
+		865E521920844FC000F76868 /* RailDisplayDataSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E521820844FC000F76868 /* RailDisplayDataSection.swift */; };
+		865E521A20844FC000F76868 /* RailDisplayDataSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E521820844FC000F76868 /* RailDisplayDataSection.swift */; };
+		865E521B20844FC000F76868 /* RailDisplayDataSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E521820844FC000F76868 /* RailDisplayDataSection.swift */; };
+		865E521D2084B3F600F76868 /* RailDisplayListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E521C2084B3F600F76868 /* RailDisplayListItem.swift */; };
+		865E521E2084B3F600F76868 /* RailDisplayListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E521C2084B3F600F76868 /* RailDisplayListItem.swift */; };
+		865E521F2084B3F600F76868 /* RailDisplayListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E521C2084B3F600F76868 /* RailDisplayListItem.swift */; };
+		865E52212084C1CE00F76868 /* RailListDisplayDataCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E52202084C1CE00F76868 /* RailListDisplayDataCollection.swift */; };
+		865E52222084C1CE00F76868 /* RailListDisplayDataCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E52202084C1CE00F76868 /* RailListDisplayDataCollection.swift */; };
+		865E52232084C1CE00F76868 /* RailListDisplayDataCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E52202084C1CE00F76868 /* RailListDisplayDataCollection.swift */; };
+		865E52252085034100F76868 /* AllStations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E52242085034100F76868 /* AllStations.swift */; };
+		865E52262085034100F76868 /* AllStations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E52242085034100F76868 /* AllStations.swift */; };
+		865E52272085034100F76868 /* AllStations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E52242085034100F76868 /* AllStations.swift */; };
+		865E522F208610B500F76868 /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E522E208610B500F76868 /* Clock.swift */; };
+		865E5230208610B500F76868 /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E522E208610B500F76868 /* Clock.swift */; };
+		865E5231208610B500F76868 /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E522E208610B500F76868 /* Clock.swift */; };
+		865E523C208612F700F76868 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E523A208612F600F76868 /* Constants.swift */; };
+		865E523D208612F700F76868 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E523A208612F600F76868 /* Constants.swift */; };
+		865E523E208612F700F76868 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E523A208612F600F76868 /* Constants.swift */; };
+		865E523F208612F700F76868 /* IrishRailHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E523B208612F600F76868 /* IrishRailHelper.swift */; };
+		865E5240208612F700F76868 /* IrishRailHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E523B208612F600F76868 /* IrishRailHelper.swift */; };
+		865E5241208612F700F76868 /* IrishRailHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E523B208612F600F76868 /* IrishRailHelper.swift */; };
+		86F4B55C2080E34200B00FB4 /* CoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4B55B2080E34100B00FB4 /* CoreDataStore.swift */; };
+		86F4B55D2080E34200B00FB4 /* CoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4B55B2080E34100B00FB4 /* CoreDataStore.swift */; };
+		86F4B55E2080E34200B00FB4 /* CoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4B55B2080E34100B00FB4 /* CoreDataStore.swift */; };
+		B7AE9D05A7DC4E36083CEB39 /* Pods_IrishRailViperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30AE96BF4DD9BA21F5280E94 /* Pods_IrishRailViperTests.framework */; };
+		DE3F76ECBC97EDC1F7E6D31E /* Pods_IrishRailViper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE104C5B488A50DC4DFCAFF8 /* Pods_IrishRailViper.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86582769208024E400F33DA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86582749208024E300F33DA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86582750208024E300F33DA3;
+			remoteInfo = IrishRailViper;
+		};
+		86582774208024E400F33DA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86582749208024E300F33DA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86582750208024E300F33DA3;
+			remoteInfo = IrishRailViper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25F066F4A7EDB193139DF1DE /* Pods-IrishRailViper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IrishRailViper.release.xcconfig"; path = "Pods/Target Support Files/Pods-IrishRailViper/Pods-IrishRailViper.release.xcconfig"; sourceTree = "<group>"; };
+		264FADC3D5BD4D4B5EB2B1C5 /* Pods-IrishRailViperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IrishRailViperUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IrishRailViperUITests/Pods-IrishRailViperUITests.release.xcconfig"; sourceTree = "<group>"; };
+		30AE96BF4DD9BA21F5280E94 /* Pods_IrishRailViperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IrishRailViperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41862B852758524D2CFA5815 /* Pods-IrishRailViperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IrishRailViperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IrishRailViperTests/Pods-IrishRailViperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		65E150984C1B38DAB1661DE3 /* Pods-IrishRailViperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IrishRailViperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IrishRailViperTests/Pods-IrishRailViperTests.release.xcconfig"; sourceTree = "<group>"; };
+		86582751208024E300F33DA3 /* IrishRailViper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IrishRailViper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86582754208024E300F33DA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86582756208024E300F33DA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		86582759208024E300F33DA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8658275C208024E300F33DA3 /* IrishRailViper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IrishRailViper.xcdatamodel; sourceTree = "<group>"; };
+		8658275E208024E300F33DA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86582761208024E300F33DA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86582763208024E300F33DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86582768208024E400F33DA3 /* IrishRailViperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IrishRailViperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8658276C208024E400F33DA3 /* IrishRailViperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IrishRailViperTests.swift; sourceTree = "<group>"; };
+		8658276E208024E400F33DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86582773208024E400F33DA3 /* IrishRailViperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IrishRailViperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86582777208024E400F33DA3 /* IrishRailViperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IrishRailViperUITests.swift; sourceTree = "<group>"; };
+		86582779208024E400F33DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		865827862080251A00F33DA3 /* Endpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		86582791208025A900F33DA3 /* RailStationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RailStationModel.swift; sourceTree = "<group>"; };
+		8658279E208025CB00F33DA3 /* RailListLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RailListLocalDataManager.swift; sourceTree = "<group>"; };
+		865827A0208025CB00F33DA3 /* RailListRemoteDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RailListRemoteDataManager.swift; sourceTree = "<group>"; };
+		865827A2208025CB00F33DA3 /* RailListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RailListInteractor.swift; sourceTree = "<group>"; };
+		865827A4208025CB00F33DA3 /* RailListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RailListPresenter.swift; sourceTree = "<group>"; };
+		865827A6208025CB00F33DA3 /* RailListProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RailListProtocols.swift; sourceTree = "<group>"; };
+		865827A8208025CB00F33DA3 /* RailListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RailListView.swift; sourceTree = "<group>"; };
+		865827A9208025CB00F33DA3 /* RailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RailTableViewCell.swift; sourceTree = "<group>"; };
+		865827AB208025CB00F33DA3 /* RailListWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RailListWireFrame.swift; sourceTree = "<group>"; };
+		865E52042081818300F76868 /* RailStation+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RailStation+CoreDataClass.swift"; sourceTree = "<group>"; };
+		865E52052081818300F76868 /* RailStation+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RailStation+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		865E520C2083AF4400F76868 /* XmlParserHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XmlParserHandler.swift; sourceTree = "<group>"; };
+		865E521420844F8900F76868 /* RailListDisplayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RailListDisplayData.swift; sourceTree = "<group>"; };
+		865E521820844FC000F76868 /* RailDisplayDataSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RailDisplayDataSection.swift; sourceTree = "<group>"; };
+		865E521C2084B3F600F76868 /* RailDisplayListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RailDisplayListItem.swift; sourceTree = "<group>"; };
+		865E52202084C1CE00F76868 /* RailListDisplayDataCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RailListDisplayDataCollection.swift; sourceTree = "<group>"; };
+		865E52242085034100F76868 /* AllStations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AllStations.swift; path = IrishRailViper/Entities/AllStations.swift; sourceTree = SOURCE_ROOT; };
+		865E522E208610B500F76868 /* Clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
+		865E523A208612F600F76868 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		865E523B208612F600F76868 /* IrishRailHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IrishRailHelper.swift; sourceTree = "<group>"; };
+		86F4B55B2080E34100B00FB4 /* CoreDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStore.swift; sourceTree = "<group>"; };
+		9E41080C57A7A7C94F8EE23F /* Pods-IrishRailViperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IrishRailViperUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IrishRailViperUITests/Pods-IrishRailViperUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D1911B2B677AF5C876B5DA42 /* Pods-IrishRailViper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IrishRailViper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IrishRailViper/Pods-IrishRailViper.debug.xcconfig"; sourceTree = "<group>"; };
+		EE104C5B488A50DC4DFCAFF8 /* Pods_IrishRailViper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IrishRailViper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2B51C663DDFDED177DBC2AB /* Pods_IrishRailViperUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IrishRailViperUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8658274E208024E300F33DA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE3F76ECBC97EDC1F7E6D31E /* Pods_IrishRailViper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86582765208024E400F33DA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7AE9D05A7DC4E36083CEB39 /* Pods_IrishRailViperTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86582770208024E400F33DA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57996F144C9FB773428F4E57 /* Pods_IrishRailViperUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86582748208024E300F33DA3 = {
+			isa = PBXGroup;
+			children = (
+				86582753208024E300F33DA3 /* IrishRailViper */,
+				8658276B208024E400F33DA3 /* IrishRailViperTests */,
+				86582776208024E400F33DA3 /* IrishRailViperUITests */,
+				86582752208024E300F33DA3 /* Products */,
+				C7B99C1C80564EC3841F3C66 /* Pods */,
+				88D1FF0959AE3D22CCD8D90D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		86582752208024E300F33DA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86582751208024E300F33DA3 /* IrishRailViper.app */,
+				86582768208024E400F33DA3 /* IrishRailViperTests.xctest */,
+				86582773208024E400F33DA3 /* IrishRailViperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86582753208024E300F33DA3 /* IrishRailViper */ = {
+			isa = PBXGroup;
+			children = (
+				8658279B208025CB00F33DA3 /* RailList */,
+				8658278E208025A900F33DA3 /* Entities */,
+				865827852080251A00F33DA3 /* Common */,
+				86582754208024E300F33DA3 /* AppDelegate.swift */,
+				86582756208024E300F33DA3 /* ViewController.swift */,
+				86F4B55B2080E34100B00FB4 /* CoreDataStore.swift */,
+				86582758208024E300F33DA3 /* Main.storyboard */,
+				8658275E208024E300F33DA3 /* Assets.xcassets */,
+				86582760208024E300F33DA3 /* LaunchScreen.storyboard */,
+				86582763208024E300F33DA3 /* Info.plist */,
+				8658275B208024E300F33DA3 /* IrishRailViper.xcdatamodeld */,
+			);
+			path = IrishRailViper;
+			sourceTree = "<group>";
+		};
+		8658276B208024E400F33DA3 /* IrishRailViperTests */ = {
+			isa = PBXGroup;
+			children = (
+				8658276C208024E400F33DA3 /* IrishRailViperTests.swift */,
+				8658276E208024E400F33DA3 /* Info.plist */,
+			);
+			path = IrishRailViperTests;
+			sourceTree = "<group>";
+		};
+		86582776208024E400F33DA3 /* IrishRailViperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				86582777208024E400F33DA3 /* IrishRailViperUITests.swift */,
+				86582779208024E400F33DA3 /* Info.plist */,
+			);
+			path = IrishRailViperUITests;
+			sourceTree = "<group>";
+		};
+		865827852080251A00F33DA3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				865E523A208612F600F76868 /* Constants.swift */,
+				865E523B208612F600F76868 /* IrishRailHelper.swift */,
+				865E520C2083AF4400F76868 /* XmlParserHandler.swift */,
+				865827862080251A00F33DA3 /* Endpoints.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		8658278E208025A900F33DA3 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				865E52042081818300F76868 /* RailStation+CoreDataClass.swift */,
+				865E52052081818300F76868 /* RailStation+CoreDataProperties.swift */,
+				86582791208025A900F33DA3 /* RailStationModel.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		8658279B208025CB00F33DA3 /* RailList */ = {
+			isa = PBXGroup;
+			children = (
+				8658279C208025CB00F33DA3 /* DataManager */,
+				865827A1208025CB00F33DA3 /* Interactor */,
+				865827A3208025CB00F33DA3 /* Presenter */,
+				865827A5208025CB00F33DA3 /* Protocols */,
+				865827A7208025CB00F33DA3 /* View */,
+				865827AA208025CB00F33DA3 /* WireFrame */,
+			);
+			name = RailList;
+			path = Entities/RailList;
+			sourceTree = "<group>";
+		};
+		8658279C208025CB00F33DA3 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				8658279D208025CB00F33DA3 /* Local */,
+				8658279F208025CB00F33DA3 /* Remote */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		8658279D208025CB00F33DA3 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				8658279E208025CB00F33DA3 /* RailListLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		8658279F208025CB00F33DA3 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				865827A0208025CB00F33DA3 /* RailListRemoteDataManager.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		865827A1208025CB00F33DA3 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				865827A2208025CB00F33DA3 /* RailListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		865827A3208025CB00F33DA3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				865827A4208025CB00F33DA3 /* RailListPresenter.swift */,
+				865E52202084C1CE00F76868 /* RailListDisplayDataCollection.swift */,
+				865E521C2084B3F600F76868 /* RailDisplayListItem.swift */,
+				865E52242085034100F76868 /* AllStations.swift */,
+				865E521420844F8900F76868 /* RailListDisplayData.swift */,
+				865E521820844FC000F76868 /* RailDisplayDataSection.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		865827A5208025CB00F33DA3 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				865827A6208025CB00F33DA3 /* RailListProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		865827A7208025CB00F33DA3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				865827A8208025CB00F33DA3 /* RailListView.swift */,
+				865E522E208610B500F76868 /* Clock.swift */,
+				865827A9208025CB00F33DA3 /* RailTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		865827AA208025CB00F33DA3 /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				865827AB208025CB00F33DA3 /* RailListWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		88D1FF0959AE3D22CCD8D90D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE104C5B488A50DC4DFCAFF8 /* Pods_IrishRailViper.framework */,
+				30AE96BF4DD9BA21F5280E94 /* Pods_IrishRailViperTests.framework */,
+				F2B51C663DDFDED177DBC2AB /* Pods_IrishRailViperUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7B99C1C80564EC3841F3C66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1911B2B677AF5C876B5DA42 /* Pods-IrishRailViper.debug.xcconfig */,
+				25F066F4A7EDB193139DF1DE /* Pods-IrishRailViper.release.xcconfig */,
+				41862B852758524D2CFA5815 /* Pods-IrishRailViperTests.debug.xcconfig */,
+				65E150984C1B38DAB1661DE3 /* Pods-IrishRailViperTests.release.xcconfig */,
+				9E41080C57A7A7C94F8EE23F /* Pods-IrishRailViperUITests.debug.xcconfig */,
+				264FADC3D5BD4D4B5EB2B1C5 /* Pods-IrishRailViperUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86582750208024E300F33DA3 /* IrishRailViper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8658277C208024E400F33DA3 /* Build configuration list for PBXNativeTarget "IrishRailViper" */;
+			buildPhases = (
+				254BCA36DCC20AD62802EA73 /* [CP] Check Pods Manifest.lock */,
+				8658274D208024E300F33DA3 /* Sources */,
+				8658274E208024E300F33DA3 /* Frameworks */,
+				8658274F208024E300F33DA3 /* Resources */,
+				655A57AAD13C5E7EC6D4F8AD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IrishRailViper;
+			productName = IrishRailViper;
+			productReference = 86582751208024E300F33DA3 /* IrishRailViper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86582767208024E400F33DA3 /* IrishRailViperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8658277F208024E400F33DA3 /* Build configuration list for PBXNativeTarget "IrishRailViperTests" */;
+			buildPhases = (
+				4D0457A210CC35EA98403481 /* [CP] Check Pods Manifest.lock */,
+				86582764208024E400F33DA3 /* Sources */,
+				86582765208024E400F33DA3 /* Frameworks */,
+				86582766208024E400F33DA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8658276A208024E400F33DA3 /* PBXTargetDependency */,
+			);
+			name = IrishRailViperTests;
+			productName = IrishRailViperTests;
+			productReference = 86582768208024E400F33DA3 /* IrishRailViperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		86582772208024E400F33DA3 /* IrishRailViperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86582782208024E400F33DA3 /* Build configuration list for PBXNativeTarget "IrishRailViperUITests" */;
+			buildPhases = (
+				E484A2696ACBBD164D8BDBF0 /* [CP] Check Pods Manifest.lock */,
+				8658276F208024E400F33DA3 /* Sources */,
+				86582770208024E400F33DA3 /* Frameworks */,
+				86582771208024E400F33DA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86582775208024E400F33DA3 /* PBXTargetDependency */,
+			);
+			name = IrishRailViperUITests;
+			productName = IrishRailViperUITests;
+			productReference = 86582773208024E400F33DA3 /* IrishRailViperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86582749208024E300F33DA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "CHHABRA, PIYUSH";
+				TargetAttributes = {
+					86582750208024E300F33DA3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					86582767208024E400F33DA3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 86582750208024E300F33DA3;
+					};
+					86582772208024E400F33DA3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 86582750208024E300F33DA3;
+					};
+				};
+			};
+			buildConfigurationList = 8658274C208024E300F33DA3 /* Build configuration list for PBXProject "IrishRailViper" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86582748208024E300F33DA3;
+			productRefGroup = 86582752208024E300F33DA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86582750208024E300F33DA3 /* IrishRailViper */,
+				86582767208024E400F33DA3 /* IrishRailViperTests */,
+				86582772208024E400F33DA3 /* IrishRailViperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8658274F208024E300F33DA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86582762208024E300F33DA3 /* LaunchScreen.storyboard in Resources */,
+				8658275F208024E300F33DA3 /* Assets.xcassets in Resources */,
+				8658275A208024E300F33DA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86582766208024E400F33DA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86582771208024E400F33DA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		254BCA36DCC20AD62802EA73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IrishRailViper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D0457A210CC35EA98403481 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IrishRailViperTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		655A57AAD13C5E7EC6D4F8AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IrishRailViper/Pods-IrishRailViper-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IrishRailViper/Pods-IrishRailViper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E484A2696ACBBD164D8BDBF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IrishRailViperUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8658274D208024E300F33DA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865E523C208612F700F76868 /* Constants.swift in Sources */,
+				865E52062081818300F76868 /* RailStation+CoreDataClass.swift in Sources */,
+				86582757208024E300F33DA3 /* ViewController.swift in Sources */,
+				865E523F208612F700F76868 /* IrishRailHelper.swift in Sources */,
+				86582798208025A900F33DA3 /* RailStationModel.swift in Sources */,
+				865827BE208025CB00F33DA3 /* RailTableViewCell.swift in Sources */,
+				8658275D208024E300F33DA3 /* IrishRailViper.xcdatamodeld in Sources */,
+				865827882080251A00F33DA3 /* Endpoints.swift in Sources */,
+				865827C1208025CB00F33DA3 /* RailListWireFrame.swift in Sources */,
+				865827AF208025CB00F33DA3 /* RailListRemoteDataManager.swift in Sources */,
+				865E520D2083AF4400F76868 /* XmlParserHandler.swift in Sources */,
+				865E52212084C1CE00F76868 /* RailListDisplayDataCollection.swift in Sources */,
+				865E521920844FC000F76868 /* RailDisplayDataSection.swift in Sources */,
+				865827BB208025CB00F33DA3 /* RailListView.swift in Sources */,
+				865E521520844F8A00F76868 /* RailListDisplayData.swift in Sources */,
+				865827AC208025CB00F33DA3 /* RailListLocalDataManager.swift in Sources */,
+				865E52092081818300F76868 /* RailStation+CoreDataProperties.swift in Sources */,
+				86582755208024E300F33DA3 /* AppDelegate.swift in Sources */,
+				865E52252085034100F76868 /* AllStations.swift in Sources */,
+				865E521D2084B3F600F76868 /* RailDisplayListItem.swift in Sources */,
+				86F4B55C2080E34200B00FB4 /* CoreDataStore.swift in Sources */,
+				865827B5208025CB00F33DA3 /* RailListPresenter.swift in Sources */,
+				865827B2208025CB00F33DA3 /* RailListInteractor.swift in Sources */,
+				865827B8208025CB00F33DA3 /* RailListProtocols.swift in Sources */,
+				865E522F208610B500F76868 /* Clock.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86582764208024E400F33DA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865827892080251A00F33DA3 /* Endpoints.swift in Sources */,
+				86582799208025A900F33DA3 /* RailStationModel.swift in Sources */,
+				865827BF208025CB00F33DA3 /* RailTableViewCell.swift in Sources */,
+				865827AD208025CB00F33DA3 /* RailListLocalDataManager.swift in Sources */,
+				865E52122083E94C00F76868 /* XmlParserHandler.swift in Sources */,
+				865E523D208612F700F76868 /* Constants.swift in Sources */,
+				865E520A2081818300F76868 /* RailStation+CoreDataProperties.swift in Sources */,
+				865E521A20844FC000F76868 /* RailDisplayDataSection.swift in Sources */,
+				865E52262085034100F76868 /* AllStations.swift in Sources */,
+				865827B0208025CB00F33DA3 /* RailListRemoteDataManager.swift in Sources */,
+				865E521E2084B3F600F76868 /* RailDisplayListItem.swift in Sources */,
+				865E521620844F8A00F76868 /* RailListDisplayData.swift in Sources */,
+				865827B6208025CB00F33DA3 /* RailListPresenter.swift in Sources */,
+				865E52222084C1CE00F76868 /* RailListDisplayDataCollection.swift in Sources */,
+				865E52072081818300F76868 /* RailStation+CoreDataClass.swift in Sources */,
+				865827B9208025CB00F33DA3 /* RailListProtocols.swift in Sources */,
+				86F4B55D2080E34200B00FB4 /* CoreDataStore.swift in Sources */,
+				865827B3208025CB00F33DA3 /* RailListInteractor.swift in Sources */,
+				8658276D208024E400F33DA3 /* IrishRailViperTests.swift in Sources */,
+				865E5230208610B500F76868 /* Clock.swift in Sources */,
+				865827BC208025CB00F33DA3 /* RailListView.swift in Sources */,
+				865827C2208025CB00F33DA3 /* RailListWireFrame.swift in Sources */,
+				865E5240208612F700F76868 /* IrishRailHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8658276F208024E400F33DA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8658278A2080251A00F33DA3 /* Endpoints.swift in Sources */,
+				8658279A208025A900F33DA3 /* RailStationModel.swift in Sources */,
+				865827C0208025CB00F33DA3 /* RailTableViewCell.swift in Sources */,
+				865827AE208025CB00F33DA3 /* RailListLocalDataManager.swift in Sources */,
+				865E52132083E94C00F76868 /* XmlParserHandler.swift in Sources */,
+				865E523E208612F700F76868 /* Constants.swift in Sources */,
+				865E520B2081818300F76868 /* RailStation+CoreDataProperties.swift in Sources */,
+				865E521B20844FC000F76868 /* RailDisplayDataSection.swift in Sources */,
+				865E52272085034100F76868 /* AllStations.swift in Sources */,
+				865827B1208025CB00F33DA3 /* RailListRemoteDataManager.swift in Sources */,
+				865E521F2084B3F600F76868 /* RailDisplayListItem.swift in Sources */,
+				865E521720844F8B00F76868 /* RailListDisplayData.swift in Sources */,
+				865827B7208025CB00F33DA3 /* RailListPresenter.swift in Sources */,
+				865E52232084C1CE00F76868 /* RailListDisplayDataCollection.swift in Sources */,
+				865E52082081818300F76868 /* RailStation+CoreDataClass.swift in Sources */,
+				865827BA208025CB00F33DA3 /* RailListProtocols.swift in Sources */,
+				86F4B55E2080E34200B00FB4 /* CoreDataStore.swift in Sources */,
+				865827B4208025CB00F33DA3 /* RailListInteractor.swift in Sources */,
+				86582778208024E400F33DA3 /* IrishRailViperUITests.swift in Sources */,
+				865E5231208610B500F76868 /* Clock.swift in Sources */,
+				865827BD208025CB00F33DA3 /* RailListView.swift in Sources */,
+				865827C3208025CB00F33DA3 /* RailListWireFrame.swift in Sources */,
+				865E5241208612F700F76868 /* IrishRailHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8658276A208024E400F33DA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86582750208024E300F33DA3 /* IrishRailViper */;
+			targetProxy = 86582769208024E400F33DA3 /* PBXContainerItemProxy */;
+		};
+		86582775208024E400F33DA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86582750208024E300F33DA3 /* IrishRailViper */;
+			targetProxy = 86582774208024E400F33DA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86582758208024E300F33DA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86582759208024E300F33DA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86582760208024E300F33DA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86582761208024E300F33DA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8658277A208024E400F33DA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8658277B208024E400F33DA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8658277D208024E400F33DA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1911B2B677AF5C876B5DA42 /* Pods-IrishRailViper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IrishRailViper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.piyush.IrishRailViper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8658277E208024E400F33DA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25F066F4A7EDB193139DF1DE /* Pods-IrishRailViper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IrishRailViper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.piyush.IrishRailViper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		86582780208024E400F33DA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41862B852758524D2CFA5815 /* Pods-IrishRailViperTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IrishRailViperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.piyush.IrishRailViperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IrishRailViper.app/IrishRailViper";
+			};
+			name = Debug;
+		};
+		86582781208024E400F33DA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65E150984C1B38DAB1661DE3 /* Pods-IrishRailViperTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IrishRailViperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.piyush.IrishRailViperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IrishRailViper.app/IrishRailViper";
+			};
+			name = Release;
+		};
+		86582783208024E400F33DA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E41080C57A7A7C94F8EE23F /* Pods-IrishRailViperUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IrishRailViperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.piyush.IrishRailViperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IrishRailViper;
+			};
+			name = Debug;
+		};
+		86582784208024E400F33DA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 264FADC3D5BD4D4B5EB2B1C5 /* Pods-IrishRailViperUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IrishRailViperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.piyush.IrishRailViperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IrishRailViper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8658274C208024E300F33DA3 /* Build configuration list for PBXProject "IrishRailViper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8658277A208024E400F33DA3 /* Debug */,
+				8658277B208024E400F33DA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8658277C208024E400F33DA3 /* Build configuration list for PBXNativeTarget "IrishRailViper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8658277D208024E400F33DA3 /* Debug */,
+				8658277E208024E400F33DA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8658277F208024E400F33DA3 /* Build configuration list for PBXNativeTarget "IrishRailViperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86582780208024E400F33DA3 /* Debug */,
+				86582781208024E400F33DA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86582782208024E400F33DA3 /* Build configuration list for PBXNativeTarget "IrishRailViperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86582783208024E400F33DA3 /* Debug */,
+				86582784208024E400F33DA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8658275B208024E300F33DA3 /* IrishRailViper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8658275C208024E300F33DA3 /* IrishRailViper.xcdatamodel */,
+			);
+			currentVersion = 8658275C208024E300F33DA3 /* IrishRailViper.xcdatamodel */;
+			path = IrishRailViper.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 86582749208024E300F33DA3 /* Project object */;
+}
