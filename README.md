@@ -31,3 +31,25 @@ Best regards,
 ⸻
 
 Let me know if you’d like a version tailored for a slide deck or executive summary.
+
+
+Sure! Here’s a more casual, conversational version that still gets the point across clearly:
+
+⸻
+
+Hey team,
+
+Just wanted to flag something about how we’re measuring adoption for the iOS app.
+
+Right now, we’ve been looking at total app downloads, but that’s not really a great indicator of how many actual clients are using the app. Anyone can download it—whether they’re a client or not—so the number includes a lot of noise (e.g., prospects, testers, or people who never even log in).
+
+A better way to measure real usage would be to look at Monthly Active Users (MAU) or Daily Active Users (DAU). We can pull this from backend logs, which track how many unique devices are logging in and actually using the app. That gives us a much cleaner and more accurate view of engagement.
+
+Let me know if it makes sense to shift our focus toward these metrics instead—I’m happy to dive into the data or set something up to track this better.
+
+Thanks!
+[Your Name]
+
+⸻
+
+Let me know if you want a version you can drop into a Slack message or presentation.
